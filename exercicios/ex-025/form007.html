@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estaddo" id="iest">
+                <optgroup input="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+
+
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="CE">Ceará</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="SE">Sergipe</option>
+                </optgroup>
+
+
+                <optgroup input="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Cartarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+
+
+                <optgroup input="Região Centro-Oeste">
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="GO">Goiás</option>
+                </optgroup>
+
+
+                <optgroup>
+                    <option value="AM">Amazonas</option>
+                    <option value="RR">Roraima</option>
+                    <option value="AP">Amapá</option>
+                    <option value="PA">Pará</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AC">Acre</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>
