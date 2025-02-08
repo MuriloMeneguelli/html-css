@@ -12,14 +12,18 @@
         <p>
             <label for="iest">Estado</label>
             <select name="estaddo" id="iest">
-                <optgroup input="Região Sudeste">
-                    <option value="MG">Minas Gerais</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="ES">Espirito Santo</option>
+
+                <optgroup label="Região Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="RR">Roraima</option>
+                    <option value="AP">Amapá</option>
+                    <option value="PA">Pará</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AC">Acre</option>
                 </optgroup>
 
-
+                <optgroup label= "Região Nordeste">
                     <option value="MA">Maranhão</option>
                     <option value="PE">Pernambuco</option>
                     <option value="RN">Rio Grande do Norte</option>
@@ -32,30 +36,43 @@
                 </optgroup>
 
 
-                <optgroup input="Região Sul">
-                    <option value="PR">Paraná</option>
-                    <option value="SC">Santa Cartarina</option>
-                    <option value="RS">Rio Grande do Sul</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" selected>São Paulo</option>
+                    <option value="ES">Espirito Santo</option>
                 </optgroup>
 
 
-                <optgroup input="Região Centro-Oeste">
+                <optgroup label="Região Centro-Oeste">
                     <option value="MT">Mato Grosso</option>
                     <option value="MS">Mato Grosso do Sul</option>
                     <option value="GO">Goiás</option>
                 </optgroup>
 
-
-                <optgroup>
-                    <option value="AM">Amazonas</option>
-                    <option value="RR">Roraima</option>
-                    <option value="AP">Amapá</option>
-                    <option value="PA">Pará</option>
-                    <option value="TO">Tocantins</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="AC">Acre</option>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Cartarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
                 </optgroup>
+
             </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option>Administrador</option>
+                <option>Contador</option>
+                <option >Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label>
+            <textarea name="msg" id="imsg" ></textarea>
         </p>
 
         <p>
